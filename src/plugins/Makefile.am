@@ -13,3 +13,8 @@ SUBDIRS += \
 	example-ldns-opendns-deviceid \
 	example-ldns-opendns-set-client-ip
 endif
+
+if USE_JSAPI
+SUBDIRS += \
+	example-js
+endif
